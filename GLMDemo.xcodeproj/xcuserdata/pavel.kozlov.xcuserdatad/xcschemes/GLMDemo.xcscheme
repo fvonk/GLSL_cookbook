@@ -47,7 +47,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/pavel.kozlov/Downloads/glslcookbook-master 2/chapter01"
+      customWorkingDirectory = "/Users/pavel.kozlov/Developer/GLSL_cookbook/chapter01"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -65,6 +65,22 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "basic"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "basic-debug"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "basic-attrib"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "basic-uniform-block"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "basic-uniform"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

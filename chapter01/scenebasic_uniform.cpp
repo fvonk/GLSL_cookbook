@@ -87,9 +87,9 @@ void SceneBasic_Uniform::compile()
 
 void SceneBasic_Uniform::update( float t )
 {
-	if( m_animate ) {
-    	angle += 1.0f;
-    	if( angle >= 360.0f) angle -= 360.0f;
+    if( m_animate ) {
+        angle += 1.0f / 100.0f;
+        if( angle >= 360.0f) angle -= 360.0f;
     }
 }
 
@@ -97,7 +97,7 @@ void SceneBasic_Uniform::render()
 {
     glClear(GL_COLOR_BUFFER_BIT);
 
-    rotationMatrix = glm::rotate(glm::mat4(1.0f), angle, vec3(0.0f,0.0f,1.0f));
+    rotationMatrix = glm::rotate(glm::mat4(1.0f), angle, vec3(1.0f,0.0f,0.0f));
 
     GLuint programHandle = prog.getHandle();
     GLuint location = glGetUniformLocation(programHandle, "RotationMatrix");
