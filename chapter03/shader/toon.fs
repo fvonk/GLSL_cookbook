@@ -12,7 +12,7 @@ uniform LightInfo Light;
 uniform vec3 Kd;            // Diffuse reflectivity
 uniform vec3 Ka;            // Ambient reflectivity
 
-const int levels = 3;
+const int levels = 2;
 const float scaleFactor = 1.0 / levels;
 
 layout( location = 0 ) out vec4 FragColor;

@@ -31,9 +31,9 @@ vec3 ads( vec4 position, vec3 norm )
     vec3 r = reflect( -s, norm );
 
     return
-        LightIntensity * ( Ka +
-           Kd * max( dot(s, norm), 0.0 ) +
-           Ks * pow( max( dot(r,v), 0.0 ), Shininess ) );
+    LightIntensity * ( Ka +
+                      Kd * max( dot(s, norm), 0.0 ) +
+                      Ks * pow( max( dot(r,v), 0.0 ), Shininess ) );
 }
 
 void main()

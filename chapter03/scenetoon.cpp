@@ -70,7 +70,7 @@ void SceneToon::render()
 
     model = mat4(1.0f);
     setMatrices();
-    plane.render();
+//    plane.render();
 }
 
 void SceneToon::setMatrices()

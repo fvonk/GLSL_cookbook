@@ -20,13 +20,14 @@
 		EF14FDDB214140A100ADB03C /* cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDB4214140A100ADB03C /* cube.cpp */; };
 		EF14FDDC214140A100ADB03C /* plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDB8214140A100ADB03C /* plane.cpp */; };
 		EF14FDDD214140A100ADB03C /* teapotpatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDBA214140A100ADB03C /* teapotpatch.cpp */; };
-		EF14FDDE214140A100ADB03C /* scenebasic_debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDBE214140A100ADB03C /* scenebasic_debug.cpp */; };
-		EF14FDDF214140A100ADB03C /* scenebasic_uniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDBF214140A100ADB03C /* scenebasic_uniform.cpp */; };
-		EF14FDE0214140A100ADB03C /* scenebasic_uniformblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDC3214140A100ADB03C /* scenebasic_uniformblock.cpp */; };
-		EF14FDE1214140A100ADB03C /* scenebasic_attrib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDC6214140A100ADB03C /* scenebasic_attrib.cpp */; };
-		EF14FDE2214140A100ADB03C /* scenebasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDD0214140A100ADB03C /* scenebasic.cpp */; };
-		EF14FDE3214140A100ADB03C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF14FDD1214140A100ADB03C /* main.cpp */; };
 		EF14FDE42141410F00ADB03C /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14FD5D21413FD800ADB03C /* libglfw.3.2.dylib */; };
+		EF53D6AC21AC27EC009DD71A /* scenespot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D68F21AC27B3009DD71A /* scenespot.cpp */; };
+		EF53D6AD21AC27EC009DD71A /* scenetoon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D69021AC27B3009DD71A /* scenetoon.cpp */; };
+		EF53D6AE21AC27EC009DD71A /* sceneperfragment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D69521AC27B3009DD71A /* sceneperfragment.cpp */; };
+		EF53D6AF21AC27EC009DD71A /* scenemultilight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D69821AC27B3009DD71A /* scenemultilight.cpp */; };
+		EF53D6B021AC27EC009DD71A /* scenedirectional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D69921AC27B3009DD71A /* scenedirectional.cpp */; };
+		EF53D6B121AC27EC009DD71A /* scenefog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D6AA21AC27B3009DD71A /* scenefog.cpp */; };
+		EF53D6B221AC27EC009DD71A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53D6AB21AC27B3009DD71A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -364,6 +365,62 @@
 		EF14FDEB2141431A00ADB03C /* basic.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = basic.frag; sourceTree = "<group>"; };
 		EF14FDEC2141431A00ADB03C /* basic_uniform.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = basic_uniform.frag; sourceTree = "<group>"; };
 		EF14FDED2141431A00ADB03C /* basic_uniformblock.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = basic_uniformblock.vert; sourceTree = "<group>"; };
+		EF53D66A21A8317F009DD71A /* sceneads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sceneads.h; sourceTree = "<group>"; };
+		EF53D66B21A8317F009DD71A /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		EF53D66C21A8317F009DD71A /* scenediffuse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenediffuse.cpp; sourceTree = "<group>"; };
+		EF53D66D21A8317F009DD71A /* sceneflat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sceneflat.cpp; sourceTree = "<group>"; };
+		EF53D66E21A8317F009DD71A /* scenediscard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenediscard.cpp; sourceTree = "<group>"; };
+		EF53D66F21A8317F009DD71A /* scenetwoside.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenetwoside.h; sourceTree = "<group>"; };
+		EF53D67021A8317F009DD71A /* scenediscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenediscard.h; sourceTree = "<group>"; };
+		EF53D67121A8317F009DD71A /* scenesubroutine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenesubroutine.cpp; sourceTree = "<group>"; };
+		EF53D67321A8317F009DD71A /* phong.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = phong.frag; sourceTree = "<group>"; };
+		EF53D67421A8317F009DD71A /* flat.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = flat.vert; sourceTree = "<group>"; };
+		EF53D67521A8317F009DD71A /* function.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = function.frag; sourceTree = "<group>"; };
+		EF53D67621A8317F009DD71A /* discard.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = discard.frag; sourceTree = "<group>"; };
+		EF53D67721A8317F009DD71A /* diffuse.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = diffuse.vert; sourceTree = "<group>"; };
+		EF53D67821A8317F009DD71A /* subroutine.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = subroutine.vert; sourceTree = "<group>"; };
+		EF53D67921A8317F009DD71A /* twoside.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = twoside.frag; sourceTree = "<group>"; };
+		EF53D67A21A8317F009DD71A /* diffuse.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = diffuse.frag; sourceTree = "<group>"; };
+		EF53D67B21A8317F009DD71A /* discard.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = discard.vert; sourceTree = "<group>"; };
+		EF53D67C21A8317F009DD71A /* function.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = function.vert; sourceTree = "<group>"; };
+		EF53D67D21A8317F009DD71A /* flat.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = flat.frag; sourceTree = "<group>"; };
+		EF53D67E21A8317F009DD71A /* phong.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = phong.vert; sourceTree = "<group>"; };
+		EF53D67F21A8317F009DD71A /* twoside.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = twoside.vert; sourceTree = "<group>"; };
+		EF53D68021A8317F009DD71A /* subroutine.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = subroutine.frag; sourceTree = "<group>"; };
+		EF53D68121A8317F009DD71A /* scenediffuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenediffuse.h; sourceTree = "<group>"; };
+		EF53D68221A8317F009DD71A /* scenetwoside.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenetwoside.cpp; sourceTree = "<group>"; };
+		EF53D68321A8317F009DD71A /* sceneads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sceneads.cpp; sourceTree = "<group>"; };
+		EF53D68421A8317F009DD71A /* sceneflat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sceneflat.h; sourceTree = "<group>"; };
+		EF53D68521A8317F009DD71A /* scenesubroutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenesubroutine.h; sourceTree = "<group>"; };
+		EF53D68621A8317F009DD71A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF53D68F21AC27B3009DD71A /* scenespot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scenespot.cpp; sourceTree = "<group>"; };
+		EF53D69021AC27B3009DD71A /* scenetoon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scenetoon.cpp; sourceTree = "<group>"; };
+		EF53D69121AC27B3009DD71A /* scenemultilight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scenemultilight.h; sourceTree = "<group>"; };
+		EF53D69221AC27B3009DD71A /* scenedirectional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scenedirectional.h; sourceTree = "<group>"; };
+		EF53D69321AC27B3009DD71A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		EF53D69421AC27B3009DD71A /* sceneperfragment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sceneperfragment.h; sourceTree = "<group>"; };
+		EF53D69521AC27B3009DD71A /* sceneperfragment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sceneperfragment.cpp; sourceTree = "<group>"; };
+		EF53D69621AC27B3009DD71A /* scenetoon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scenetoon.h; sourceTree = "<group>"; };
+		EF53D69721AC27B3009DD71A /* scenespot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scenespot.h; sourceTree = "<group>"; };
+		EF53D69821AC27B3009DD71A /* scenemultilight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scenemultilight.cpp; sourceTree = "<group>"; };
+		EF53D69921AC27B3009DD71A /* scenedirectional.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scenedirectional.cpp; sourceTree = "<group>"; };
+		EF53D69A21AC27B3009DD71A /* scenefog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scenefog.h; sourceTree = "<group>"; };
+		EF53D69C21AC27B3009DD71A /* multilight.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = multilight.vert; sourceTree = "<group>"; };
+		EF53D69D21AC27B3009DD71A /* spot.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = spot.fs; sourceTree = "<group>"; };
+		EF53D69E21AC27B3009DD71A /* perfrag.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = perfrag.vs; sourceTree = "<group>"; };
+		EF53D69F21AC27B3009DD71A /* toon.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = toon.vs; sourceTree = "<group>"; };
+		EF53D6A021AC27B3009DD71A /* directional.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = directional.fs; sourceTree = "<group>"; };
+		EF53D6A121AC27B3009DD71A /* halfway.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = halfway.fs; sourceTree = "<group>"; };
+		EF53D6A221AC27B3009DD71A /* fog.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fog.vs; sourceTree = "<group>"; };
+		EF53D6A321AC27B3009DD71A /* halfway.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = halfway.vs; sourceTree = "<group>"; };
+		EF53D6A421AC27B3009DD71A /* directional.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = directional.vs; sourceTree = "<group>"; };
+		EF53D6A521AC27B3009DD71A /* multilight.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = multilight.frag; sourceTree = "<group>"; };
+		EF53D6A621AC27B3009DD71A /* fog.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fog.fs; sourceTree = "<group>"; };
+		EF53D6A721AC27B3009DD71A /* spot.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = spot.vs; sourceTree = "<group>"; };
+		EF53D6A821AC27B3009DD71A /* perfrag.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = perfrag.fs; sourceTree = "<group>"; };
+		EF53D6A921AC27B3009DD71A /* toon.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = toon.fs; sourceTree = "<group>"; };
+		EF53D6AA21AC27B3009DD71A /* scenefog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scenefog.cpp; sourceTree = "<group>"; };
+		EF53D6AB21AC27B3009DD71A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -382,6 +439,8 @@
 		EF14F3D12141391A00ADB03C = {
 			isa = PBXGroup;
 			children = (
+				EF53D68E21AC27B3009DD71A /* chapter03 */,
+				EF53D66921A8317F009DD71A /* chapter02 */,
 				EF14FDBC214140A100ADB03C /* chapter01 */,
 				EF14FD93214140A100ADB03C /* ingredients */,
 				EF14F3DB2141391A00ADB03C /* Products */,
@@ -844,6 +903,92 @@
 			path = shader;
 			sourceTree = "<group>";
 		};
+		EF53D66921A8317F009DD71A /* chapter02 */ = {
+			isa = PBXGroup;
+			children = (
+				EF53D66A21A8317F009DD71A /* sceneads.h */,
+				EF53D66B21A8317F009DD71A /* CMakeLists.txt */,
+				EF53D66C21A8317F009DD71A /* scenediffuse.cpp */,
+				EF53D66D21A8317F009DD71A /* sceneflat.cpp */,
+				EF53D66E21A8317F009DD71A /* scenediscard.cpp */,
+				EF53D66F21A8317F009DD71A /* scenetwoside.h */,
+				EF53D67021A8317F009DD71A /* scenediscard.h */,
+				EF53D67121A8317F009DD71A /* scenesubroutine.cpp */,
+				EF53D67221A8317F009DD71A /* shader */,
+				EF53D68121A8317F009DD71A /* scenediffuse.h */,
+				EF53D68221A8317F009DD71A /* scenetwoside.cpp */,
+				EF53D68321A8317F009DD71A /* sceneads.cpp */,
+				EF53D68421A8317F009DD71A /* sceneflat.h */,
+				EF53D68521A8317F009DD71A /* scenesubroutine.h */,
+				EF53D68621A8317F009DD71A /* main.cpp */,
+			);
+			path = chapter02;
+			sourceTree = "<group>";
+		};
+		EF53D67221A8317F009DD71A /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				EF53D67321A8317F009DD71A /* phong.frag */,
+				EF53D67421A8317F009DD71A /* flat.vert */,
+				EF53D67521A8317F009DD71A /* function.frag */,
+				EF53D67621A8317F009DD71A /* discard.frag */,
+				EF53D67721A8317F009DD71A /* diffuse.vert */,
+				EF53D67821A8317F009DD71A /* subroutine.vert */,
+				EF53D67921A8317F009DD71A /* twoside.frag */,
+				EF53D67A21A8317F009DD71A /* diffuse.frag */,
+				EF53D67B21A8317F009DD71A /* discard.vert */,
+				EF53D67C21A8317F009DD71A /* function.vert */,
+				EF53D67D21A8317F009DD71A /* flat.frag */,
+				EF53D67E21A8317F009DD71A /* phong.vert */,
+				EF53D67F21A8317F009DD71A /* twoside.vert */,
+				EF53D68021A8317F009DD71A /* subroutine.frag */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
+		EF53D68E21AC27B3009DD71A /* chapter03 */ = {
+			isa = PBXGroup;
+			children = (
+				EF53D68F21AC27B3009DD71A /* scenespot.cpp */,
+				EF53D69021AC27B3009DD71A /* scenetoon.cpp */,
+				EF53D69521AC27B3009DD71A /* sceneperfragment.cpp */,
+				EF53D69821AC27B3009DD71A /* scenemultilight.cpp */,
+				EF53D69921AC27B3009DD71A /* scenedirectional.cpp */,
+				EF53D6AA21AC27B3009DD71A /* scenefog.cpp */,
+				EF53D6AB21AC27B3009DD71A /* main.cpp */,
+				EF53D69121AC27B3009DD71A /* scenemultilight.h */,
+				EF53D69221AC27B3009DD71A /* scenedirectional.h */,
+				EF53D69321AC27B3009DD71A /* CMakeLists.txt */,
+				EF53D69421AC27B3009DD71A /* sceneperfragment.h */,
+				EF53D69621AC27B3009DD71A /* scenetoon.h */,
+				EF53D69721AC27B3009DD71A /* scenespot.h */,
+				EF53D69A21AC27B3009DD71A /* scenefog.h */,
+				EF53D69B21AC27B3009DD71A /* shader */,
+			);
+			path = chapter03;
+			sourceTree = "<group>";
+		};
+		EF53D69B21AC27B3009DD71A /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				EF53D69C21AC27B3009DD71A /* multilight.vert */,
+				EF53D69D21AC27B3009DD71A /* spot.fs */,
+				EF53D69E21AC27B3009DD71A /* perfrag.vs */,
+				EF53D69F21AC27B3009DD71A /* toon.vs */,
+				EF53D6A021AC27B3009DD71A /* directional.fs */,
+				EF53D6A121AC27B3009DD71A /* halfway.fs */,
+				EF53D6A221AC27B3009DD71A /* fog.vs */,
+				EF53D6A321AC27B3009DD71A /* halfway.vs */,
+				EF53D6A421AC27B3009DD71A /* directional.vs */,
+				EF53D6A521AC27B3009DD71A /* multilight.frag */,
+				EF53D6A621AC27B3009DD71A /* fog.fs */,
+				EF53D6A721AC27B3009DD71A /* spot.vs */,
+				EF53D6A821AC27B3009DD71A /* perfrag.fs */,
+				EF53D6A921AC27B3009DD71A /* toon.fs */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -902,20 +1047,21 @@
 			files = (
 				EF14FDD6214140A100ADB03C /* glslprogram.cpp in Sources */,
 				EF14FDDD214140A100ADB03C /* teapotpatch.cpp in Sources */,
-				EF14FDE3214140A100ADB03C /* main.cpp in Sources */,
 				EF14FDD8214140A100ADB03C /* torus.cpp in Sources */,
+				EF53D6B021AC27EC009DD71A /* scenedirectional.cpp in Sources */,
 				EF14FDDC214140A100ADB03C /* plane.cpp in Sources */,
+				EF53D6AC21AC27EC009DD71A /* scenespot.cpp in Sources */,
+				EF53D6AF21AC27EC009DD71A /* scenemultilight.cpp in Sources */,
+				EF53D6B121AC27EC009DD71A /* scenefog.cpp in Sources */,
 				EF14FDD3214140A100ADB03C /* teapot.cpp in Sources */,
 				EF14FDDA214140A100ADB03C /* sphere.cpp in Sources */,
-				EF14FDE0214140A100ADB03C /* scenebasic_uniformblock.cpp in Sources */,
-				EF14FDDF214140A100ADB03C /* scenebasic_uniform.cpp in Sources */,
-				EF14FDDE214140A100ADB03C /* scenebasic_debug.cpp in Sources */,
 				EF14FDD7214140A100ADB03C /* objmesh.cpp in Sources */,
+				EF53D6AE21AC27EC009DD71A /* sceneperfragment.cpp in Sources */,
+				EF53D6AD21AC27EC009DD71A /* scenetoon.cpp in Sources */,
+				EF53D6B221AC27EC009DD71A /* main.cpp in Sources */,
 				EF14FDD5214140A100ADB03C /* texture.cpp in Sources */,
-				EF14FDE1214140A100ADB03C /* scenebasic_attrib.cpp in Sources */,
 				EF14FDD2214140A100ADB03C /* trianglemesh.cpp in Sources */,
 				EF14FDD4214140A100ADB03C /* glutils.cpp in Sources */,
-				EF14FDE2214140A100ADB03C /* scenebasic.cpp in Sources */,
 				EF14FDDB214140A100ADB03C /* cube.cpp in Sources */,
 				EF14FDD9214140A100ADB03C /* glad.c in Sources */,
 			);
